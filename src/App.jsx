@@ -3,7 +3,8 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
+    console.log(1111, process.env.REACT_APP_API_URL)
 
   return (
     <div className="App">
